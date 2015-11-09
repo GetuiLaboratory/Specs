@@ -117,7 +117,7 @@ Pod::Spec.new do |s|
   #s.framework  = "UIKit"
   # s.frameworks = "SomeFramework", "AnotherFramework"
   s.frameworks = 'SystemConfiguration', 'CFNetwork','CoreTelephony','CoreLocation','AVFoundation','CoreBluetooth'
-  s.ios.frameworks =,'SystemConfiguration', 'CFNetwork','CoreTelephony','CoreLocation','AVFoundation','CoreBluetooth'
+  s.ios.frameworks = 'SystemConfiguration', 'CFNetwork','CoreTelephony','CoreLocation','AVFoundation','CoreBluetooth'
   # s.library   = "sqlite3"
   s.ios.libraries = 'z','sqlite3.0'
 
