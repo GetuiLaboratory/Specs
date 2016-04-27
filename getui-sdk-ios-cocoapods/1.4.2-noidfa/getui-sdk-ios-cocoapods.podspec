@@ -104,8 +104,8 @@ Pod::Spec.new do |s|
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
 
-  s.preserve_paths = "libGeTuiSdk-1.4.2.a"
-  s.ios.vendored_library = "libGeTuiSdk-1.4.2.a"
+  s.preserve_paths = "libGeTuiSdk-1.4.2-noidfa.a"
+  s.ios.vendored_library = "libGeTuiSdk-1.4.2-noidfa.a"
 
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
