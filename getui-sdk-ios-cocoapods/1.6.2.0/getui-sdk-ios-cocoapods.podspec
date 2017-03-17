@@ -21,10 +21,10 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/GetuiLaboratory/getui-sdk-ios-cocoapods.git", :tag => "1.6.2.0" }
 
-  s.source_files  = 'GeTuiSdk.h','GeTuiExtSdk.h' 
+  s.source_files  = 'GeTuiSdk.h'
 
   s.preserve_paths = 'libGeTuiSdk-1.6.2.0.a'
-  s.ios.vendored_library = 'libGeTuiSdk-1.6.2.0.a','libGtExtensionSdk-1.1.0.a'
+  s.ios.vendored_library = 'libGeTuiSdk-1.6.2.0.a'
 
   s.frameworks = 'SystemConfiguration', 'CFNetwork','CoreTelephony','CoreLocation','AVFoundation','Security'
   s.ios.frameworks = 'SystemConfiguration', 'CFNetwork','CoreTelephony','CoreLocation','AVFoundation','Security'

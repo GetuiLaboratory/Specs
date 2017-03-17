@@ -21,16 +21,14 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/GetuiLaboratory/getui-sdk-ios-cocoapods.git", :tag => "1.6.2.0-noidfa" }
 
-  s.source_files  = 'GeTuiSdk.h','GeTuiExtSdk.h' 
+  s.source_files  = 'GeTuiExtSdk.h' 
 
-  s.preserve_paths = 'libGeTuiSdk-1.6.2.0-noidfa.a','libGtExtensionSdk-1.1.0.a'
-  s.ios.vendored_library = 'libGeTuiSdk-1.6.2.0-noidfa.a','libGtExtensionSdk-1.1.0.a'
+  s.preserve_paths = 'libGtExtensionSdk-1.1.0.a'
+  s.ios.vendored_library = 'libGtExtensionSdk-1.1.0.a'
 
-  s.frameworks = 'SystemConfiguration', 'CFNetwork','CoreTelephony','CoreLocation','AVFoundation','Security'
-  s.ios.frameworks = 'SystemConfiguration', 'CFNetwork','CoreTelephony','CoreLocation','AVFoundation','Security'
   s.weak_frameworks = 'UserNotifications'
   s.ios.weak_frameworks = 'UserNotifications'
-  s.ios.libraries = 'z','sqlite3','c++'
+  s.ios.libraries = 'z','sqlite3'
 
   s.requires_arc = true
 
