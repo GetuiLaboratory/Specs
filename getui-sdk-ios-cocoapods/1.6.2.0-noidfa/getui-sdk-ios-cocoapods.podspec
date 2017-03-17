@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
 
-  s.name         = "GTSDK"
+  s.name         = "getui-sdk-ios-cocoapods"
   s.version      = "1.6.2.0-noidfa"
   s.summary      = "个推iOS SDK CocoaPods集成库"
 
