@@ -4,12 +4,15 @@ Pod::Spec.new do |s|
 
   s.name         = "getui-sdk-ios-cocoapods"
   s.version      = "1.5.3-noidfa"
-  s.summary      = "个推iOS SDK CocoaPods集成库"
+  s.summary      = "iOS SDK CocoaPods集成库"
 
   s.description  = <<-DESC
                    A longer description of getui-sdk-ios-cocoapods in Markdown format.
+                   TEST
+                   测试 SDK CocoaPods TEST
 
-                   个推iOS SDK
+                   TEST
+
                    DESC
 
   s.homepage     = "https://github.com/GetuiLaboratory/getui-sdk-ios-cocoapods"
