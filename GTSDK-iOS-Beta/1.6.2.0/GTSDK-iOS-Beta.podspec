@@ -1,5 +1,3 @@
-
-
 Pod::Spec.new do |s|
   # 名称，pod search 搜索的关键词,注意这里一定要和.podspec的名称一样,否则报错
   s.name         = "GTSDK-iOS-Beta"
@@ -32,7 +30,7 @@ Pod::Spec.new do |s|
 
   # 所需的framework，多个用逗号隔开
   s.ios.frameworks = 'SystemConfiguration', 'CFNetwork','CoreTelephony','CoreLocation','AVFoundation','Security'
-  
+
   # “弱引用”所需的framework，多个用逗号隔开
   s.ios.weak_frameworks = 'UserNotifications'
 
