@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   # 项目主页地址
   s.homepage     = "https://github.com/GetuiLaboratory/GTExtensionSDK-iOS-CocoaPods"
   # 许可证/所采用的授权版本
-  s.license      = { :type => "MIT", :file => "LICENSE" }
+  s.license      = { :type => "MIT" }
   # 库的作者
   s.author       = { "个推" => "support@getui.com" }
   # 项目的地址
