@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   # 库的作者
   s.author       = { "个推" => "support@getui.com" }
   # 项目的地址
-  s.source       = { :git => "https://github.com/GetuiLaboratory/GTExtensionSDK-iOS-CocoaPods.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/GetuiLaboratory/GTExtensionSDK-iOS-CocoaPods.git", :branch => 'develop'}
 
   # 支持的平台及版本(iOS、macOS、watchOS等)
   s.platform     = :ios, "10.0"
